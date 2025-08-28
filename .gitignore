@@ -1,0 +1,38 @@
+# pythonLP
+**/.venv/
+**/.icons/
+**/.libs_links/
+**/.links/
+**/.debug/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Anaconda
+.spyproject/
+.ipynb_checkpoints
+.virtual_documents
+
+#Windows
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# uv
+.uv-cache/
+uv.lock
+
+# Sphinx
+build/
+*.log
+*.doctree
+
+# pytest
+.pytest_cache
