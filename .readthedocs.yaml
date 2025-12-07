@@ -1,0 +1,15 @@
+# .readthedocs.yaml
+version: 2
+
+sphinx:
+  configuration: docs/source/conf.py
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "template_version"
+
+python:
+  install:
+    - method: pip
+      path: .

@@ -1,0 +1,11 @@
+# Allow multiple runs to resolve references automatically
+$max_repeat = 5;
+
+# Use xelatex
+$pdflatex = 'xelatex -interaction=nonstopmode -synctex=1 %O %S';
+
+# Do not stop on missing references
+$warning_list{'rerun'} = 0;
+
+# Enable index generation if needed
+$makeindex = "makeindex %O -o %D %S";
