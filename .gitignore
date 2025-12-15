@@ -4,6 +4,7 @@
 **/.links/
 **/.debug/
 **/.dev/
+.extra
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
