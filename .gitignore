@@ -38,3 +38,6 @@ build/
 
 # pytest
 .pytest_cache
+
+# VS Code
+wget-log*
