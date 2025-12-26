@@ -1,5 +1,6 @@
 # pythonLP
 **/.venv/
+**/.venv_win/
 **/.icons/
 **/.links/
 **/.debug/
@@ -35,6 +36,10 @@ uv.lock
 build/
 *.log
 *.doctree
+
+# Pyinstaller
+dist/
+*.exe
 
 # pytest
 .pytest_cache
