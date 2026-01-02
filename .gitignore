@@ -12,10 +12,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-#Anaconda
+# Anaconda
 .spyproject/
 .ipynb_checkpoints
 .virtual_documents
+
+# Marimo
+.marimo/
+__marimo__/
+.marimo.toml
 
 #Windows
 desktop.ini
