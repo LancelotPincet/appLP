@@ -7,13 +7,16 @@ requires-python = ">=3.12"
 dependencies = [ "corelp",]
 
 [build-system]
-requires = [ "uv_build>=0.8.8,<0.9.0",]
+requires = [ "uv_build",]
 build-backend = "uv_build"
 
 [dependency-groups]
-dev = [ "pytest",]
+tests = [ "pytest",]
 docs = [ "sphinx", "sphinx-design", "sphinx-rtd-theme", "toml",]
 anaconda = [ "ipykernel", "spyder-kernels",]
 
 [tool.uv]
 required-environments = [ "sys_platform == 'linux' and platform_machine == 'x86_64'", "sys_platform == 'win32' and (platform_machine == 'AMD64' or platform_machine == 'x86_64')",]
+
+[tool.uv.sources.corelp]
+workspace = true
