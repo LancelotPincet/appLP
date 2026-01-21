@@ -45,7 +45,6 @@ build/
 # Pyinstaller
 dist/
 *.exe
-*.spec
 
 # pytest
 .pytest_cache
