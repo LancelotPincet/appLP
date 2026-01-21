@@ -21,29 +21,12 @@ For a refresher, see the `Python tutorial <https://docs.python.org/3/tutorial/>`
 
 TODO
 
-To import ``appLP``, just use :
-
-.. code-block:: python
-
-   import applp
-
-.. code-block:: python
-
-   # TODO
-
-
 .. _simple_example:
 
 2. Simple example
 -----------------
 
 TODO
-
-.. code-block:: python
-
-    import applp
-    # TODO
-
 
 .. _getting_help:
 
