@@ -21,10 +21,3 @@ sources = {
 # %% Lazy imports
 from corelp import getmodule
 __getattr__, __all__ = getmodule(sources)
-
-
-
-# %% Test function run
-if __name__ == "__main__":
-    from corelp import test
-    test(__file__)
