@@ -16,20 +16,6 @@ sources = {
 
 }
 
-from importlib import resources
-from contextlib import contextmanager
-
-@contextmanager
-def resources_dir():
-    with resources.as_file(resources.files("applp.resources")) as path:
-        yield path
-if False: 
-    import applp.resources
-
-# %% Hidden imports
-if False :
-
-
 
 
 # %% Lazy imports
