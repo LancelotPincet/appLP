@@ -18,5 +18,8 @@ anaconda = [ "ipykernel", "spyder-kernels",]
 [tool.uv]
 required-environments = [ "sys_platform == 'linux' and platform_machine == 'x86_64'", "sys_platform == 'win32' and (platform_machine == 'AMD64' or platform_machine == 'x86_64')",]
 
+[tool.setuptools.package-data]
+appLP = [ "resources/**",]
+
 [tool.uv.sources.corelp]
 workspace = true
