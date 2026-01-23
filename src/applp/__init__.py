@@ -16,7 +16,13 @@ sources = {
 
 }
 
+from importlib import resources
+from contextlib import contextmanager
 
+@contextmanager
+def resources_dir():
+    with resources.as_file(resources.files("applp.resources")) as path:
+        yield path
 
 # %% Hidden imports
 if False :
