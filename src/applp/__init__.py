@@ -13,7 +13,10 @@ A library for custom GUI interface creation.
 
 # %% Source import
 sources = {
-
+'App': 'applp.modules.App_LP.App',
+'AutoScrollbar': 'applp.modules.AutoScrollbar_LP.AutoScrollbar',
+'CanvasImage': 'applp.modules.CanvasImage_LP.CanvasImage',
+'crop_image': 'applp.modules.crop_image_LP.crop_image'
 }
 
 

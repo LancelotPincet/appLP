@@ -11,3 +11,7 @@ Here are the references to the various modules to import in **appLP**.
    :maxdepth: 1
    :caption: Modules
 
+   AutoScrollbar
+   App
+   crop_image
+   CanvasImage
