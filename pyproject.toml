@@ -15,6 +15,9 @@ tests = [ "pytest",]
 docs = [ "sphinx", "sphinx-design", "sphinx-rtd-theme", "toml",]
 anaconda = [ "ipykernel", "spyder-kernels",]
 
+[project.optional-dependencies]
+docs = [ "sphinx", "sphinx-design", "sphinx-rtd-theme", "toml",]
+
 [tool.uv]
 required-environments = [ "sys_platform == 'linux' and platform_machine == 'x86_64'", "sys_platform == 'win32' and (platform_machine == 'AMD64' or platform_machine == 'x86_64')",]
 
