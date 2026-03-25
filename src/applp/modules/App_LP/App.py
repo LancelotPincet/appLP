@@ -31,21 +31,6 @@ class App(tk.Tk) :
     title : str
         Title of the App.
 
-    Attributes
-    ----------
-    ratio : float
-        width / height window ratio, if str understands conventional width:height ratios
-    fact : tuple
-        (x, y) factors to apply to defined (width, height). if single value uses the same for both directions
-    width : int
-        window width
-    height : int
-        window height
-    screen_proportion : float
-        Proportion of the screen used by default
-    wsl_percent : int or float
-        Windows magnification if running on WSL [default value is the one from my system]
-
     Examples
     --------
     >>> from applp import App

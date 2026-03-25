@@ -175,14 +175,56 @@ class CanvasImage(tk.Frame) :
             self.move_to(event)
         #Init images
         self.show_image()
-    def pack(self,*args,**kwargs) :
-        super().pack(*args,**kwargs)
+
+    def pack(self, *args, **kwargs):
+        """
+        Pack the widget and initialize internal layout.
+
+        Calls :meth:`place_widgets` after packing to set up
+        scrollbars, header, and canvas.
+
+        Parameters
+        ----------
+        *args
+            Positional arguments forwarded to :meth:`tk.Frame.pack`.
+        **kwargs
+            Keyword arguments forwarded to :meth:`tk.Frame.pack`.
+        """
+        super().pack(*args, **kwargs)
         self.place_widgets()
-    def grid(self,*args,**kwargs) :
-        super().grid(*args,**kwargs)
+
+    def grid(self, *args, **kwargs):
+        """
+        Grid the widget and initialize internal layout.
+
+        Calls :meth:`place_widgets` after gridding to set up
+        scrollbars, header, and canvas.
+
+        Parameters
+        ----------
+        *args
+            Positional arguments forwarded to :meth:`tk.Frame.grid`.
+        **kwargs
+            Keyword arguments forwarded to :meth:`tk.Frame.grid`.
+        """
+        super().grid(*args, **kwargs)
         self.place_widgets()
-    def place(self,*args,**kwargs) :
-        super().place(*args,**kwargs)
+
+    def place(self, *args, **kwargs):
+        """
+        Place the widget and initialize internal layout.
+
+        Calls :meth:`place_widgets` after placing to set up
+        scrollbars, header, and canvas.
+
+        Parameters
+        ----------
+        *args
+            Positional arguments forwarded to :meth:`tk.Frame.place`.
+        **kwargs
+            Keyword arguments forwarded to :meth:`tk.Frame.place`.
+        """
+        super().place(*args, **kwargs)
         self.place_widgets()
 
 

@@ -13,4 +13,4 @@ Consult the **Reference Guide** to have detailed information on how to call the 
    :caption: Reference Guide
 
    modules
-   scripts
+   routines

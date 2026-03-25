@@ -1,7 +1,7 @@
-template_lowername.App module
-template_equals===========
+applp.App module
+================
 
-.. autoclass:: template_lowername.App
+.. autoclass:: applp.App
    :members: 
    :show-inheritance:
    :undoc-members:

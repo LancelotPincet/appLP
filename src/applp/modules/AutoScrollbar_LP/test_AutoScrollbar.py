@@ -31,48 +31,6 @@ def test_function() :
 
 
 
-# %% Instance fixture
-@pytest.fixture()
-def instance() :
-    '''
-    Create a new instance at each test function
-    '''
-    return AutoScrollbar()
-
-def test_instance(instance) :
-    '''
-    Test on fixture
-    '''
-    pass
-
-
-# %% Returns test
-@pytest.mark.parametrize("args, kwargs, expected, message", [
-    #([], {}, None, ""),
-    ([], {}, None, ""),
-])
-def test_returns(args, kwargs, expected, message) :
-    '''
-    Test AutoScrollbar return values
-    '''
-    assert AutoScrollbar(*args, **kwargs) == expected, message
-
-
-
-# %% Error test
-@pytest.mark.parametrize("args, kwargs, error, error_message", [
-    #([], {}, None, ""),
-    ([], {}, None, ""),
-])
-def test_errors(args, kwargs, error, error_message) :
-    '''
-    Test AutoScrollbar error values
-    '''
-    with pytest.raises(error, match=error_message) :
-        AutoScrollbar(*args, **kwargs)
-
-
-
 # %% Test function run
 if __name__ == "__main__":
     from corelp import test

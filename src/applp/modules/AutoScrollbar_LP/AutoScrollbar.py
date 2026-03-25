@@ -19,7 +19,7 @@ import tkinter as tk
 
 
 # %% Class
-class AutoScrollbar(ttk.Scrollbar) :
+class AutoScrollbar(ttk.Scrollbar):
     '''
     This class adds an automatic scrollbar when necessary.
     '''
@@ -31,8 +31,29 @@ class AutoScrollbar(ttk.Scrollbar) :
             self.grid()
             ttk.Scrollbar.set(self, lo, hi)
     def pack(self, **kw):
+        """
+        Not supported for this widget.
+
+        Use ``grid()`` instead.
+
+        Raises
+        ------
+        tk.TclError
+            Always raised.
+        """
         raise tk.TclError('Cannot use pack with the widget ' + self.__class__.__name__)
+
     def place(self, **kw):
+        """
+        Not supported for this widget.
+
+        Use ``grid()`` instead.
+
+        Raises
+        ------
+        tk.TclError
+            Always raised.
+        """
         raise tk.TclError('Cannot use place with the widget ' + self.__class__.__name__)
 
 

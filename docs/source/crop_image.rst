@@ -1,4 +1,4 @@
-template_lowername.crop_image module
-template_equals==================
+applp.crop_image module
+=======================
 
-.. autofunction:: template_lowername.crop_image
+.. autofunction:: applp.crop_image

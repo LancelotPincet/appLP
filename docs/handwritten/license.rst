@@ -1,35 +1,3 @@
-:orphan:
-
-.. _what_is_this_library:
-
-What is this library?
-=====================
-
-In this section, we will describe what is **appLP**.
-
-1. First, we will explain the :ref:`context <context_and_motivations>` behind the problematics that motivated its development.
-2. Then, we will explore the strategies used in the :ref:`solutions proposed <proposed_solutions>`.
-3. Finally, we will discuss what are :ref:`your rights <license>` when using this open-source Python library in your projects.
-
-.. _context_and_motivations:
-
-1. Context and motivations
---------------------------
-
-TODO
-
-.. _proposed_solutions:
-
-2. Proposed solutions
----------------------
-
-TODO
-
-.. _license:
-
-3. License
-----------
-
 Intellectual property behind this **appLP** is protected via an **MIT license**.
 This means everyone can *freely* use it in a personal, academic or commercial manner, if they **keep the copyright name** at the top of the codes.
 

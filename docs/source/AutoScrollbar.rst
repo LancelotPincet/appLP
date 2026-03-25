@@ -1,7 +1,7 @@
-template_lowername.AutoScrollbar module
-template_equals=====================
+applp.AutoScrollbar module
+==========================
 
-.. autoclass:: template_lowername.AutoScrollbar
+.. autoclass:: applp.AutoScrollbar
    :members: 
    :show-inheritance:
    :undoc-members:
