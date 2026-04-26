@@ -51,3 +51,6 @@ dist/
 
 # VS Code
 wget-log*
+
+# opencode
+opencode.json
