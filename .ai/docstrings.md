@@ -28,8 +28,9 @@
   - no sections required.
 
 Example:
-
-    """Normalize input array shape."""
+```python
+"""Normalize input array shape."""
+```
 
 ## Comprehensive Docstrings
 
@@ -45,7 +46,8 @@ Public objects must include:
 ## Structure (NumPy-style)
 
 Use a NumPy-style structure:
-
+```python
+"""
 Summary line.
 
 Parameters
@@ -73,6 +75,8 @@ Detailed explanation of the logic.
 Examples
 --------
 Example usage.
+"""
+```
 
 ## Summary
 

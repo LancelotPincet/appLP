@@ -82,7 +82,7 @@ Defines how the module is structured and documented.
   - scans `.py` files not starting with `_` or `test`,
   - adds lazy imports to the main `__init__.py`.
 - Each file defines one main object named after the file.
-- All such objects become importable from the package root.
+- All such objects become importable from the package root directly with ```from applp import myname```.
 - File names must therefore be unique across the package.
 
 ## Testing

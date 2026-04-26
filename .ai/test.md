@@ -15,20 +15,21 @@
 - Use `# %%` sections to separate test groups.
 
 Example:
+```python
+# %% test myname
 
-    # %% test myname
+def test_myname_normal_case():
+    ...
 
-    def test_myname_normal_case():
-        ...
-
-    def test_myname_edge_case():
-        ...
+def test_myname_edge_case():
+    ...
 
 
-    # %% test child_object
+# %% test child_object
 
-    def test_child_object_normal_case():
-        ...
+def test_child_object_normal_case():
+    ...
+```
 
 ## Test Coverage
 
@@ -61,6 +62,16 @@ Example:
 - Use small, readable test data.
 - Avoid randomness unless explicitly controlled with a fixed seed.
 - Avoid external dependencies, network calls, or environment-specific assumptions unless required.
+
+## Footer
+
+- Test files and the associated main files should all finish by :
+```python
+
+if __name__ == "__main__" :
+    from corelp import test
+    test(__file__)
+```
 
 ## Goal
 
