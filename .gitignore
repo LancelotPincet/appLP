@@ -54,3 +54,7 @@ wget-log*
 
 # opencode
 opencode.json
+node_modules
+package.json
+package-lock.json
+bun.lock
