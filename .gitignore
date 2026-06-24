@@ -1,11 +1,12 @@
 # pythonLP
 **/.venv/
 **/.venv_win/
-**/.icons/
-**/.links/
+**/icons/
+**/links/
 **/.debug/
 **/.dev/
 .extra
+*_bkup/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
