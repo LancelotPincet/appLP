@@ -52,6 +52,7 @@ dist/
 
 # VS Code
 wget-log*
+*.code-workspace
 
 # opencode
 opencode.json
