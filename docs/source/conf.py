@@ -2,7 +2,7 @@
 
 import os
 import sys
-import toml
+import tomlkit
 
 # Add path
 sys.path.insert(0, os.path.abspath('../../src'))
@@ -12,7 +12,7 @@ project = 'appLP'
 copyright = '2025, Lancelot PINCET'
 author = 'Lancelot PINCET'
 with open('../../pyproject.toml') as file :
-    data = toml.load(file)
+    data = tomlkit.load(file).unwrap()
 version = data['project']['version']
 release = version
 master_doc = 'index'

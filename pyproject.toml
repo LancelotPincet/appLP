@@ -4,22 +4,22 @@ version = "0.1.20"
 description = "A library for custom GUI interface creation."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [ "corelp", "numpy", "pillow", "plotlp",]
+dependencies = ["corelp", "numpy", "pillow", "plotlp"]
+
+[project.optional-dependencies]
+docs = ["sphinx", "sphinx-design", "sphinx-rtd-theme", "tomlkit"]
 
 [build-system]
-requires = [ "uv_build",]
+requires = ["uv_build"]
 build-backend = "uv_build"
 
 [dependency-groups]
-tests = [ "pytest",]
-docs = [ "sphinx", "sphinx-design", "sphinx-rtd-theme", "toml",]
-anaconda = [ "ipykernel", "spyder-kernels",]
-
-[project.optional-dependencies]
-docs = [ "sphinx", "sphinx-design", "sphinx-rtd-theme", "toml",]
+tests = ["pytest"]
+docs = ["sphinx", "sphinx-design", "sphinx-rtd-theme", "tomlkit"]
+anaconda = ["ipykernel", "spyder-kernels"]
 
 [tool.uv]
-required-environments = [ "sys_platform == 'linux' and platform_machine == 'x86_64'", "sys_platform == 'win32' and (platform_machine == 'AMD64' or platform_machine == 'x86_64')",]
+required-environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'", "sys_platform == 'win32' and (platform_machine == 'AMD64' or platform_machine == 'x86_64')"]
 
 [tool.uv.sources.corelp]
 workspace = true
